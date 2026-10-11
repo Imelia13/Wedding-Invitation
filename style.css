@@ -325,7 +325,7 @@ section {
         z-index: 100;
     }
 
-    .wedding-nav-toggle {
+    .wedding-nav .wedding-nav-toggle {
         display: flex;
         position: relative;
         align-items: center;
