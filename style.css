@@ -86,6 +86,10 @@ section {
 /* =====================================================
    OPENING
 ===================================================== */
+.wedding-nav .wedding-nav-toggle {
+    display: none;
+}
+
 .wedding-nav {
     position: absolute;
     top: 20px;

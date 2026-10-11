@@ -1,3 +1,17 @@
+const music = document.getElementById("background-music");
+
+function playWeddingMusic() {
+    if (!music) return;
+
+    music.play().catch((error) => {
+        console.log("Musik gagal diputar:", error);
+    });
+}
+
+document.addEventListener("click", function () {
+    playWeddingMusic();
+}, { once: true });
+
 //NAVBAR OPENING
 $(document).ready(function () {
 
